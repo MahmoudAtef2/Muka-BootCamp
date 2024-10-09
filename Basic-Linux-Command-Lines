@@ -1,0 +1,67 @@
+sic Linux Command Lines:
+
+1. File and Directory Management:
+- ls: Lists files and directories in the current directory.
+- ls -l: Lists files and directories with detailed information (permissions, owner, size, date).
+- cd <directory>: Changes the current directory to the specified directory.
+- pwd: Prints the current working directory path.
+- mkdir <directory-name>: Creates a new directory.
+- rm <file>: Removes (deletes) a file.
+- rm -r <directory>: Removes a directory and its contents.
+- cp <source> <destination>: Copies a file or directory.
+- mv <source> <destination>: Moves or renames a file or directory.
+
+2. Viewing and Editing Files:
+- cat <file>: Outputs the contents of a file.
+- less <file>: Views the contents of a file one page at a time.
+- head <file>: Displays the first 10 lines of a file.
+- tail <file>: Displays the last 10 lines of a file.
+- nano <file>: Opens a file in the nano text editor.
+- vim <file>: Opens a file in the vim text editor.
+
+3. File Permissions:
+- chmod <permissions> <file>: Changes the permissions of a file or directory (e.g., chmod 755 <file>).
+- chown <user>:<group> <file>: Changes the ownership of a file or directory.
+
+4. Searching for Files:
+- find <directory> -name <filename>: Finds files by name in a directory.
+- grep "<pattern>" <file>: Searches for a pattern in a file.
+- grep -r "<pattern>" <directory>: Searches recursively for a pattern in a directory.
+
+5. System Information:
+- df -h: Displays disk space usage.
+- du -h <directory>: Displays the size of a directory and its contents.
+- free -h: Shows available and used memory (RAM).
+- uname -a: Displays information about the system.
+- top: Displays real-time system resource usage (CPU, memory).
+
+6. Process Management:
+- ps aux: Lists all running processes.
+- kill <PID>: Kills a process by its Process ID (PID).
+- killall <process-name>: Kills all processes by name.
+
+7. Networking Commands:
+- ping <hostname>: Sends ICMP echo requests to test network connectivity.
+- ifconfig: Displays or configures network interfaces.
+- curl <url>: Fetches content from a URL.
+
+8. Compression and Archiving:
+- tar -cvf <archive-name>.tar <directory>: Creates a tar archive of a directory.
+- tar -xvf <archive-name>.tar: Extracts files from a tar archive.
+- gzip <file>: Compresses a file using gzip.
+- gunzip <file>.gz: Decompresses a gzipped file.
+
+9. User and Group Management:
+- sudo <command>: Runs a command with superuser (root) privileges.
+- adduser <username>: Adds a new user to the system.
+- passwd <username>: Changes a user's password.
+- usermod -aG <group> <username>: Adds a user to a group.
+
+10. Package Management:
+- apt-get update: Updates the list of available packages (Debian/Ubuntu).
+- apt-get install <package>: Installs a new package (Debian/Ubuntu).
+- yum install <package>: Installs a new package (Red Hat/CentOS).
+
+11. System Shutdown and Reboot:
+- shutdown now: Shuts down the system immediately.
+- reboot: Reboots the system.
